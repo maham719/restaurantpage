@@ -100,7 +100,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 let hasAnimated = false;
 window.addEventListener("scroll",function(){  
 let displayValue=document.querySelectorAll(".num");
-let interval = 6000;
+let interval = 4000;
 if(window.scrollY >= 50 &&!hasAnimated){
     hasAnimated=true;
 displayValue.forEach(value =>{
