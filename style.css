@@ -144,7 +144,7 @@
     position: absolute;
     top: 20%;
     z-index: 10;
-    left: 15%;
+    left: 20%;
     transform: translateY(180%);
     animation: slide  1s ease-in-out 0.5s 1 normal forwards running;
 }
